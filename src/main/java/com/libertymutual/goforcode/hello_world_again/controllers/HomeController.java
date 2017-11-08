@@ -22,7 +22,7 @@ public class HomeController {
 		carbs.setViewName("spuds");
 		carbs.addObject("variety", "red");
 		carbs.addObject("temperature", 428);
-			
+		carbs.addObject("arbitraryImage", "https://nkxms1019hx1xmtstxk3k9sko-wpengine.netdna-ssl.com/wp-content/uploads/2013/02/figest.jpg");
 		return carbs;	
 		
 		

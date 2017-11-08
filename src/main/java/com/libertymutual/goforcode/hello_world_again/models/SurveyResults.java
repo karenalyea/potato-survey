@@ -27,7 +27,7 @@ public class SurveyResults {
 		russetCount = russetCount + 1;
 	}
 	public void registerNewVote() {
-		newCount = newCount + 1;
+		newCount += 1;
 	}
 	public void registerSweetVote() {
 		sweetCount = sweetCount + 1;
